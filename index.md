@@ -57,10 +57,10 @@ CH552 GND    ──→ USB-TTL GND
 - WCH USB 下载驱动
 
 ch55xduino 开发板管理器地址：
-
 ```text
 https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/package_ch55xduino_mcs51_index.json
 ```
+打开Arduino IDE，找到`首选项`，添加此网址至`附加开发板管理器网址`
 
 Arduino IDE 中选择：
 

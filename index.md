@@ -322,3 +322,4 @@ USB-TTL 只作为故障定位工具，最终成品不需要。
 - 本硬件的完整[PCB基本信息](./PCB.pdf)，[PCB文件](./PCB.zip)
 - 本硬件调试所必须的[src](https://github.com/Seanasia/VeryBadUSB/blob/main/src.zip)
 - 本硬件调试的[示例文件](https://github.com/Seanasia/VeryBadUSB/blob/main/%E7%A4%BA%E4%BE%8B%E6%96%87%E4%BB%B6.zip)
+- 本硬件在[默认情况下烧录的文件（仅适用于windows）](https://github.com/Seanasia/VeryBadUSB/blob/main/%E7%A4%BA%E4%BE%8B%E6%96%87%E4%BB%B6_windows.zip)

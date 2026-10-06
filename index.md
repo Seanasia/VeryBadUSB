@@ -2,6 +2,7 @@
 ### 曾用名：BadUSB2.0.0
 
 当前，你所拿到的VeryBadUSB是已经烧录好的，我们将直接讲述如何进行调试和烧录，并附有故障或完全处在初始化状态的从零启动指南。
+如果你想直接开始调试，请跳转至
 
 ---
 
@@ -62,7 +63,7 @@ https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/package_ch55xd
 ```
 打开Arduino IDE，找到`首选项`，添加此网址至`附加开发板管理器网址`
 
-Arduino IDE 中选择：
+Arduino IDE 中选择（可在Arduino IDE顶部`工具`中选择）：
 
 ```text
 Board: CH552 Board
@@ -145,8 +146,9 @@ Generic_Examples
 └── 05.USB
     └── HidKeyboard
 ```
+当然，你也可以直接使用我制作的[示例文件](https://github.com/Seanasia/VeryBadUSB/blob/main/%E7%A4%BA%E4%BE%8B%E6%96%87%E4%BB%B6.zip)，里面有完整的可调整和不可调整细则。
 
-**必须保留示例中的整个 `src` 目录，不要只复制 `.ino` 文件。**
+**必须必须必须保留示例中的整个 `src` 目录，不要只复制 `.ino` 文件。若没有`src`，[点击此处下载](https://github.com/Seanasia/VeryBadUSB/blob/main/src.zip)**
 
 USB Settings 选择：
 
@@ -175,6 +177,16 @@ CH552 HID TEST 1234567890
 ```
 
 先在记事本中验证，不要直接测试命令执行。
+
+在你开始验证前，我建议你先检查以下内容是否完整：
+1.设置是否正确（全部在IDE顶部`工具`中选择）：
+- [ ] Board: CH552 Board
+- [ ] Clock: 24 MHz internal / 5V
+- [ ] Upload Method: USB
+- [ ] Bootloader Pin: P3.6 (D+) pull-up
+- [ ] USB Settings: USER CODE w/ 148B USB ram
+2.必要文件是否齐全：
+- [ ] 在项目根目录下应当存在文件`src`
 
 ---
 
@@ -308,3 +320,5 @@ USB-TTL 只作为故障定位工具，最终成品不需要。
 
 - 本硬件的完整[原理图](./原理图.pdf)
 - 本硬件的完整[PCB基本信息](./PCB.pdf)，[PCB文件](./PCB.zip)
+- 本硬件调试所必须的[src](https://github.com/Seanasia/VeryBadUSB/blob/main/src.zip)
+- 本硬件调试的[示例文件](https://github.com/Seanasia/VeryBadUSB/blob/main/%E7%A4%BA%E4%BE%8B%E6%96%87%E4%BB%B6.zip)

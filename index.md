@@ -67,7 +67,7 @@ Arduino IDE 中选择（可在Arduino IDE顶部`工具`中选择）：
 
 ```text
 Board: CH552 Board
-Clock: 24 MHz internal / 5V
+Clock: 16 MHz internal / 3.3v or 5V
 Upload Method: USB
 Bootloader Pin: P3.6 (D+) pull-up
 ```
@@ -181,7 +181,7 @@ CH552 HID TEST 1234567890
 在你开始验证前，我建议你先检查以下内容是否完整：
 1.设置是否正确（全部在IDE顶部`工具`中选择）：
 - [ ] Board: CH552 Board
-- [ ] Clock: 24 MHz internal / 5V
+- [ ] Clock: 16 MHz internal / 3.3v or 5V
 - [ ] Upload Method: USB
 - [ ] Bootloader Pin: P3.6 (D+) pull-up
 - [ ] USB Settings: USER CODE w/ 148B USB ram
